@@ -1,0 +1,56 @@
+.nav-background {
+    background-color: #161614 !important;
+}
+
+.brand-text {
+    font-weight: 600 !important;
+    font-family: 'Outfit' !important;
+    font-size: 55px !important;
+    color: #F7931A !important;
+    text-align: center !important;
+}
+
+.menu-item {
+    font-weight: 500 !important;
+    font-family: 'Outfit' !important;
+    font-size: 24px !important;
+    color: #D8DEDF !important;
+}
+
+.menu-selected {
+    color: #F7931A !important;
+}
+
+.nav-padding-left {
+    margin-left: 57px !important;
+}
+
+.logo-width {
+    width: 142px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .logo-width {
+        width: 56px;
+    }
+    .brand-text {
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+    .logo-width {
+        width: 86px;
+    }
+    .brand-text {
+        font-size: 42px !important;
+    }
+}
